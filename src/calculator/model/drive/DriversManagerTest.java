@@ -30,7 +30,7 @@ public class DriversManagerTest
         {
             checkObj = true;
         }
-        Assert.assertEquals("Passenger is Not added..!",true , checkObj);
+        Assert.assertTrue("Passenger is Not added..!",checkObj);
         // Assert.assertEquals("Carlos",driversManager.getPassenger("44234").getName());
         // Assert.assertEquals("44234",driversManager.getPassenger("44234").getId());
         // Assert.assertEquals(100 ,driversManager.getPassenger("44234").getBalance());
@@ -44,7 +44,7 @@ public class DriversManagerTest
         {
             checkObj = true;
         }
-        Assert.assertEquals("Driver is Not added..!",true , checkObj);
+        Assert.assertTrue("Driver is Not added..!",checkObj);
 
 
     }
@@ -56,7 +56,7 @@ public class DriversManagerTest
         {
             checkTrip = true;
         }
-        Assert.assertEquals("Trip not Started..!",true , checkTrip);
+        Assert.assertTrue("Trip not Started..!",checkTrip);
     }
 
     @Test
@@ -67,7 +67,7 @@ public class DriversManagerTest
         {
             checkEndTrip = true;
         }
-        Assert.assertEquals("Trip not Ended..!",true , checkEndTrip);
+        Assert.assertTrue("Trip not Ended..!",checkEndTrip);
     }
 
     @Test
